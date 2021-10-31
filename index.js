@@ -84,17 +84,7 @@ async function run() {
             console.log(req.body);
             res.json(updateStatus);
         })
-        //UPDATE API - booking orders status property
-        // app.put('/orders/:id', async (req, res) => {
-        //     const order = req.body;
-        //     const options = { upsert: true };
-        //     const updatedOrder = {
-        //         $set: { status: order.status }
-        //     };
-        //     const updateStatus = await orderCollection.updateOne({ _id: ObjectId(req.params.id) }, updatedOrder, options);
 
-        //     res.json(updateStatus);
-        // });
 
 
 
